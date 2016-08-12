@@ -160,7 +160,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="img/product-1.jpg" alt="">
+                    <img src="images/product-1.jpg" alt="">
                     <div class="caption">
                         <h4>Product 1</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -171,7 +171,7 @@
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="img/product-2.jpg" alt="">
+                    <img src="images/product-2.jpg" alt="">
 
                     <div class="caption">
                         <h4>Product 2</h4>
@@ -184,7 +184,7 @@
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="img/product-3.jpg" alt="">
+                    <img src="images/product-3.jpg" alt="">
 
                     <div class="caption">
                         <h4>Product 3</h4>
@@ -199,53 +199,52 @@
     </div>
 </section>
 <section>
-    <div class="container">
-        <div class="row"><h2 class="section-title">Liên hệ</h2></div>
-        <div class="row">
-            <div class="container">
-                <div class="col-md-8">
+    <div class="row"><h2 class="section-title">Liên hệ</h2></div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-8">
 
-                </div>
-                <div class="col-md-8">
-                    <form action="" class="form-horizontal" id="message-form">
-                        <div class="form-group">
-                            <label for="ho_va_ten" class="control-label">Họ và tên</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="control-label">Lời nhắn</label>
-                            <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <label for="email" class="control-label">Email</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email" class="control-label">&nbsp;</label>
-                                <button class="btn btn-primary btn-block">Gửi</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-block">
-                        <dl>
-                            <dt>Địa chỉ</dt>
-                            <dd>ABC</dd>
-                            <dt>Điện thoại</dt>
-                            <dd>0900000</dd>
-                            <dt>Email</dt>
-                            <dd>abcd@example.com</dd>
-                        </dl>
+            </div>
+            <div class="col-md-8">
+                <form action="" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="ho_va_ten" class="control-label">Họ và tên</label>
+                        <input type="text" class="form-control">
                     </div>
+                    <div class="form-group">
+                        <label for="message">Lời nhắn</label>
+                        <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">&nbsp;</label>
+                            <button class="btn btn-primary btn-block">Gửi</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-block">
+                    <dl>
+                        <dt>Địa chỉ</dt>
+                        <dd>ABC</dd>
+                        <dt>Điện thoại</dt>
+                        <dd>0900000</dd>
+                        <dt>Email</dt>
+                        <dd>abcd@example.com</dd>
+                    </dl>
                 </div>
             </div>
         </div>
     </div>
 </section>
+bs3-footer
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
