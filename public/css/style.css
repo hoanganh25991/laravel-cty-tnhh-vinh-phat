@@ -1,0 +1,118 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #8f8e83;
+	font-size:15px;
+}
+nav {
+	margin: 0 -9600rem;
+	padding: .25rem 9600rem;
+	margin-bottom: 0!important;
+}
+a.navbar-brand {
+	font-size: 30px;
+	color: #fff!important;
+}
+.navbar-default {
+	background-color: #75992e;
+	border: 0;
+}
+.navbar-default ul li a {
+	color: #fff!important;
+	text-transform: uppercase;
+	background-color: #75992e!important;
+	font-weight: 500;
+}
+.navbar-default .navbar-nav>.active>a {
+	color: #95cf24!important;
+	background-color: #75992e!important; 
+}
+.navbar-default ul li a:hover {
+	color: #95cf24!important;
+	background-color: #75992e!important;
+}
+.jumbotron {
+	background-image: url('../img/rice.jpg')!important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding: 250px 0;
+	height: 100vh;
+	margin-bottom:0;
+}
+
+.icon {
+	display: inline-block;
+	text-align: center;
+}
+.icon-md {
+	font-size: 40px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	margin-left:0!important;
+}
+.icon-primary {
+	color: #75992e;
+	font-weight: bold;
+}
+.box {
+	margin-top:50px;
+}
+.box-left, .box-body {
+	display: table-cell;
+}
+.box-left {
+	padding-right: 25px;
+}
+.box-body {
+	vertical-align: middle;
+	color: #75992e;
+	font-size: 20px;
+}
+.box-body h3 {
+	font-weight: 400;
+	padding: 0;
+	margin:0;
+}
+.section-title {
+	color: #75992e;
+	text-align: center;
+	font-weight: 400;
+	margin-top:50px;
+}
+
+.thumbnail .caption h4 {
+	color: #75992e;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.thumbnail .caption p {
+	color: #8f8e83;
+}
+
+#message-form .form-control {
+	height: 50px;
+	border-radius: 30px;
+	background-color: #f1f1eb;
+}
+.control-label {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 5px!important;
+	padding-left: 20px;
+}
+dt {
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+.contact-block {
+	padding: 20px 30px;
+}
+.contact-block dt {
+	font-weight: 400;
+}
+.contact-block dd {
+	color: #75992e;
+	margin-top: 8px;
+}
