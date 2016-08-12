@@ -1,7 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #8f8e83;
-	font-size:16px;
+	font-size:15px;
 }
 nav {
 	margin: 0 -9600rem;
@@ -77,5 +77,42 @@ a.navbar-brand {
 .section-title {
 	color: #75992e;
 	text-align: center;
-	font-weight: 500;
+	font-weight: 400;
+	margin-top:50px;
+}
+
+.thumbnail .caption h4 {
+	color: #75992e;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.thumbnail .caption p {
+	color: #8f8e83;
+}
+
+#message-form .form-control {
+	height: 50px;
+	border-radius: 30px;
+	background-color: #f1f1eb;
+}
+.control-label {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 5px!important;
+	padding-left: 20px;
+}
+dt {
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+.contact-block {
+	padding: 20px 30px;
+}
+.contact-block dt {
+	font-weight: 400;
+}
+.contact-block dd {
+	color: #75992e;
+	margin-top: 8px;
 }
