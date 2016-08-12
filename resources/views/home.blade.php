@@ -160,7 +160,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="images/product-1.jpg" alt="">
+                    <img src="ima product-1.jpg" alt="">
                     <div class="caption">
                         <h4>Product 1</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
