@@ -54,7 +54,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-rain-weather-cloud-outline-symbol-with-raindrops-lines"></span>
@@ -65,12 +65,17 @@
                     <div class="description">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-circular-outlined-badge-with-ribbon-recognition-prize-symbol"></span>
@@ -86,7 +91,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="clearfix visible-sm"></div>
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-foggy-day-fog-at-sunset-or-sunrise"></span>
@@ -102,7 +108,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="clearfix hidden-xs hidden-sm"></div>
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-four-rounded-squares-button"></span>
@@ -118,7 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="clearfix visible-sm"></div>
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-hot-interface-symbol-of-fire-flames-outline"></span>
@@ -134,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 col-sm-6">
                 <div class="box">
                     <div class="box-left">
                         <span class="icon icon-md icon-primary flaticon-two-drops-sizes-outlined-shapes"></span>
@@ -201,43 +209,43 @@
     <div class="container">
         <div class="row"><h2 class="section-title">Liên hệ</h2></div>
         <div class="row">
-            <div class="container">
-                <div class="col-md-8">
-        
-                </div>
-                <div class="col-md-8">
-                    <form action="" class="form-horizontal">
-                        <div class="form-group">
+            <div class="col-md-8">
+    
+            </div>
+            <div class="col-md-8">
+                <form action="" class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-md-12 col-xs-12">
                             <label for="ho_va_ten" class="control-label">Họ và tên</label>
                             <input type="text" class="form-control">
                         </div>
-                        <div class="form-group">
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 col-xs-12">
                             <label for="message" class="control-label">Lời nhắn</label>
                             <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
                         </div>
-                        <div class="form-group">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <label for="email" class="control-label">Email</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12">
-                                <div class="row">
-                                    <label for="email" class="control-label">&nbsp;</label>
-                                    <button class="btn btn-primary btn-block">GỬI</button>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 col-xs-12">
+                            <label for="email" class="control-label">Email</label>
+                            <input type="text" class="form-control">
                         </div>
-                    </form>
-                </div>
-                <div class="col-md-4 col-xs-12 contact-block">
+                        <div class="col-md-6 col-xs-12">
+                            <label for="email" class="control-label">&nbsp;</label>
+                            <button class="btn btn-primary btn-block">GỬI</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 col-xs-12 contact-block">
+                <div class="col-md-12">
                     <dl>
-                        <dt>Địa chỉ</dt>
+                        <dt><span class="flaticon-big-map-placeholder-outlined-symbol-of-interface"></span> Địa chỉ</dt>
                         <dd>ABC</dd>
-                        <dt>Điện thoại</dt>
+                        <dt><span class="flaticon-phone-auricular-outline"></span> Điện thoại</dt>
                         <dd>0900000</dd>
-                        <dt>Email</dt>
+                        <dt><span class="flaticon-email-closed-outlined-back-envelope-interface-symbol"></span> Email</dt>
                         <dd>abcd@example.com</dd>
                     </dl>
                 </div>

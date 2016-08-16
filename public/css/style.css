@@ -14,9 +14,9 @@ nav {
 	padding: .25rem 9600rem;
 	margin-bottom: 0!important;
 }
-nav form {
+/*nav form {
 	margin:0!important;
-}
+}*/
 a.navbar-brand {
 	font-size: 30px;
 	color: #fff!important;
@@ -127,33 +127,42 @@ dt {
 }
 
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 768px) { 
-.jumbotron {
-	height: 60vh;
-	padding: 100px 0;
+@media (max-width: 768px) {
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #8a6d3b;
+	}
+	.jumbotron {
+		height: 60vh;
+		padding: 100px 0;
+	}
+	.section-title {
+		margin-top:30px;
+	}
+	.box {
+		margin-top: 20px;
+	}
+	.box-left {
+		padding-right: 15px;
+	}
+	.contact-block {
+		padding: 0;
+	}
+	.contact-block dt {
+		margin-top: 18px;
+	}
+	.message dd {
+		margin-top: 0px;
+	}
+	.message label.control-label {
+		padding-left: 10px;
+	}
+	dl {
+		font-size: 17px;
+	}
 }
-.section-title {
-	margin-top:30px;
-}
-.box {
-	margin-top: 20px;
-}
-.box-left {
-	padding-right: 15px;
-}
-.contact-block {
-	padding: 0;
-}
-.contact-block dt {
-	margin-top: 18px;
-}
-.message dd {
-	margin-top: 0px;
-}
-.message label.control-label {
-	padding-left: 10px;
-}
-.message .form-control {
-	border-radius: 8px;
-}
+
+@media (min-width: 768px) {
+	dl {
+		font-size: 19px;
+	}
 }
