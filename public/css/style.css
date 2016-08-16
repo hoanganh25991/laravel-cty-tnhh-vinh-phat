@@ -3,10 +3,19 @@ body {
 	color: #8f8e83;
 	font-size:15px;
 }
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #95cf26;
+}
+.navbar-default .navbar-toggle {
+	border-color: #95cf26;
+}
 nav {
 	margin: 0 -9600rem;
 	padding: .25rem 9600rem;
 	margin-bottom: 0!important;
+}
+nav form {
+	margin:0!important;
 }
 a.navbar-brand {
 	font-size: 30px;
@@ -36,7 +45,7 @@ a.navbar-brand {
 	background-size:cover;
 	background-position:center;
 	padding: 250px 0;
-	height: 100vh;
+	height: 70vh;
 	margin-bottom:0;
 }
 
@@ -115,4 +124,36 @@ dt {
 .contact-block dd {
 	color: #75992e;
 	margin-top: 8px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) { 
+.jumbotron {
+	height: 60vh;
+	padding: 100px 0;
+}
+.section-title {
+	margin-top:30px;
+}
+.box {
+	margin-top: 20px;
+}
+.box-left {
+	padding-right: 15px;
+}
+.contact-block {
+	padding: 0;
+}
+.contact-block dt {
+	margin-top: 18px;
+}
+.message dd {
+	margin-top: 0px;
+}
+.message label.control-label {
+	padding-left: 10px;
+}
+.message .form-control {
+	border-radius: 8px;
+}
 }
