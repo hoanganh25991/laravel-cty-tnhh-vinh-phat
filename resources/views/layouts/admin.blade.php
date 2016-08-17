@@ -207,45 +207,45 @@
     </div>
 
     <!-- jQuery -->
-    <script src="{{ url('vendors/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/jquery/dist/jquery.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="{{ url('vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <!-- FastClick -->
-    <script src="{{ url('vendors/fastclick/lib/fastclick.js') }}"></script>
+    <script src="{{ url('/public/vendors/fastclick/lib/fastclick.js') }}"></script>
     <!-- NProgress -->
-    <script src="{{ url('vendors/nprogress/nprogress.js') }}"></script>
+    <script src="{{ url('/public/vendors/nprogress/nprogress.js') }}"></script>
     <!-- Chart.js -->
-    <script src="{{ url('vendors/Chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/Chart.js/dist/Chart.min.js') }}"></script>
     <!-- gauge.js -->
-    <script src="{{ url('vendors/gauge.js/dist/gauge.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/gauge.js/dist/gauge.min.js') }}"></script>
     <!-- bootstrap-progressbar -->
-    <script src="{{ url('vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
     <!-- iCheck -->
-    <script src="{{ url('vendors/iCheck/icheck.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/iCheck/icheck.min.js') }}"></script>
     <!-- Skycons -->
-    <script src="{{ url('vendors/skycons/skycons.js') }}"></script>
+    <script src="{{ url('/public/vendors/skycons/skycons.js') }}"></script>
     <!-- Flot -->
-    <script src="{{ url('vendors/Flot/jquery.flot.js') }}"></script>
-    <script src="{{ url('vendors/Flot/jquery.flot.pie.js') }}"></script>
-    <script src="{{ url('vendors/Flot/jquery.flot.time.js') }}"></script>
-    <script src="{{ url('vendors/Flot/jquery.flot.stack.js') }}"></script>
-    <script src="{{ url('vendors/Flot/jquery.flot.resize.js') }}"></script>
+    <script src="{{ url('/public/vendors/Flot/jquery.flot.js') }}"></script>
+    <script src="{{ url('/public/vendors/Flot/jquery.flot.pie.js') }}"></script>
+    <script src="{{ url('/public/vendors/Flot/jquery.flot.time.js') }}"></script>
+    <script src="{{ url('/public/vendors/Flot/jquery.flot.stack.js') }}"></script>
+    <script src="{{ url('/public/vendors/Flot/jquery.flot.resize.js') }}"></script>
     <!-- Flot plugins -->
-    <script src="{{ url('vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
-    <script src="{{ url('vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
-    <script src="{{ url('vendors/flot.curvedlines/curvedLines.js') }}"></script>
+    <script src="{{ url('/public/vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
+    <script src="{{ url('/public/vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/flot.curvedlines/curvedLines.js') }}"></script>
     <!-- DateJS -->
-    <script src="{{ url('vendors/DateJS/build/date.js') }}"></script>
+    <script src="{{ url('/public/vendors/DateJS/build/date.js') }}"></script>
     <!-- JQVMap -->
-    <script src="{{ url('vendors/jqvmap/dist/jquery.vmap.js') }}"></script>
-    <script src="{{ url('vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
-    <script src="{{ url('vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
+    <script src="{{ url('/public/vendors/jqvmap/dist/jquery.vmap.js') }}"></script>
+    <script src="{{ url('/public/vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
+    <script src="{{ url('/public/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="{{ url('js/moment/moment.min.js') }}"></script>
-    <script src="{{ url('js/datepicker/daterangepicker.js') }}"></script>
+    <script src="{{ url('/publicjs/moment/moment.min.js') }}"></script>
+    <script src="{{ url('/public/js/datepicker/daterangepicker.js') }}"></script>
 
     <!-- TinyMCE -->
-    <script src="{{ url('vendors/tinymce/tinymce.min.js') }}"></script>
+    <script src="{{ url('/public/vendors/tinymce/tinymce.min.js') }}"></script>
     <script>
     tinymce.init({
       selector: 'textarea',
@@ -272,6 +272,6 @@
     </script>
 
     <!-- Custom Theme Scripts -->
-    <script src="{{ url('build/js/custom.min.js') }}"></script>
+    <script src="{{ url('/public/build/js/custom.min.js') }}"></script>
   </body>
 </html>
