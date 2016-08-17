@@ -16,6 +16,7 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->integer('image_id');
+            $table->integer('category_id');
             $table->string('introduction');
             $table->string('content');
             $table->string('origin');
