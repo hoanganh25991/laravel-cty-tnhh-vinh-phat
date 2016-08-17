@@ -10,20 +10,20 @@
     <title>Admin</title>
 
     <!-- Bootstrap -->
-    <link href="{{ url('vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ url('vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{ url('vendors/nprogress/nprogress.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- iCheck -->
-    <link href="{{ url('vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
     <!-- bootstrap-progressbar -->
-    <link href="{{ url('vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <!-- JQVMap -->
-    <link href="{{ url('vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
+    <link href="{{ url('/public/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
 
     <!-- Custom Theme Style -->
-    <link href="{{ url('build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ url('/public/build/css/custom.min.css') }}" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -40,7 +40,7 @@
             <!-- menu profile quick info -->
             <div class="profile">
               <div class="profile_pic">
-                <img src="{{ url('images/img.jpg') }}" alt="..." class="img-circle profile_img">
+                <img src="{{ url('/images/img.jpg') }}" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
