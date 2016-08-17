@@ -241,7 +241,7 @@
     <script src="{{ url('/public/vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
     <script src="{{ url('/public/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="{{ url('/publicjs/moment/moment.min.js') }}"></script>
+    <script src="{{ url('/public/js/moment/moment.min.js') }}"></script>
     <script src="{{ url('/public/js/datepicker/daterangepicker.js') }}"></script>
 
     <!-- TinyMCE -->
@@ -266,7 +266,7 @@
       ],
       content_css: [
         '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
-        '/vendors/tinymce/css/codepen.min.css'
+        '/public/vendors/tinymce/css/codepen.min.css'
       ]
     });
     </script>
