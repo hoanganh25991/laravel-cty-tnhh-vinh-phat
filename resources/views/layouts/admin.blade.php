@@ -266,7 +266,11 @@
       ],
       content_css: [
         '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
+<<<<<<< HEAD
         'public/vendors/tinymce/css/codepen.min.css'
+=======
+        'vendors/tinymce/css/codepen.min.css'
+>>>>>>> dd4b8cc354404968863616dcf459c1e5c367104b
       ]
     });
     </script>

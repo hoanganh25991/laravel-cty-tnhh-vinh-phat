@@ -1,0 +1,154 @@
+[33mcommit 5a2315e140734a5bf106dd658da283abddcca81c[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Sat Aug 20 01:04:37 2016 +0700
+
+    recolor homepage, add static pages and product show page.
+
+[33mcommit 68dde153371f59a33d381dd6c9fca9a1fdce9d9f[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Wed Aug 17 13:35:43 2016 +0700
+
+    Fix CSS and JS files link second time
+
+[33mcommit fd986d33fa14d312cd67bdbd6e26a8ad4bd31711[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Wed Aug 17 13:33:45 2016 +0700
+
+    Update all CSS and JS href attribute with prefix "/public"
+
+[33mcommit 60a2a306067ca28bd288453b5af93d15147e9ccf[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Wed Aug 17 13:29:46 2016 +0700
+
+    Try to add prefix "/public " in href attribute of CSS file
+
+[33mcommit f55f1aa7707188832a058d11ce88575caa50663d[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Wed Aug 17 13:25:18 2016 +0700
+
+    Fix link for css and js files.
+
+[33mcommit 08a4a885364d8bf4961bbee5dcce6140ac4ba0b4[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Wed Aug 17 11:22:51 2016 +0700
+
+    Add Admin page with beautiful theme, now user can create products but still can not add images (LOL)
+
+[33mcommit 8f6bd0e16bd10e104635efffc837c8288b73194c[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Tue Aug 16 14:29:05 2016 +0700
+
+    Improve display. Now it can display almost perfect on every device! Seem cool!
+
+[33mcommit e9b73c69d9a91afea83053cfd343c4cbfb16e4b8[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Tue Aug 16 10:54:08 2016 +0700
+
+    Fix display on mobile. Now it looks much better when visit on mobile
+
+[33mcommit 3a36312cb812c241df89b9849caf616319a2a75d[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 21:46:57 2016 +0700
+
+    [.htaccess] allow tff, woff, go to through
+
+[33mcommit 8c3c53baf19724afa93c08a635b4a42406ead8a6[m
+Merge: 460fb70 61ccbf2
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 21:04:55 2016 +0700
+
+    Merge branch 'master' of https://github.com/hoanganh25991/laravel-cty-tnhh-vinh-phat
+
+[33mcommit 460fb70dc196e431174fb8d48960a8e9b90df5ce[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 21:04:50 2016 +0700
+
+    .htaccess on css
+
+[33mcommit 61ccbf2c5d682ad54125c42b516cfc5e52c7ed13[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 21:01:56 2016 +0700
+
+    fix error images loading
+
+[33mcommit 37865658350b7b128efa77acf9c2ad633d0d3d0d[m
+Merge: 8a78797 b5c0070
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 20:59:23 2016 +0700
+
+    Merge branch 'master' of https://github.com/hoanganh25991/laravel-cty-tnhh-vinh-phat
+
+[33mcommit 8a78797967c776c65fa4d2097ed03e743e5da278[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 20:59:19 2016 +0700
+
+    allow fonts loaded by public
+
+[33mcommit ca7ba1d8c0c5870436c274fa965319bebe6101be[m
+Merge: 64f2d93 3786565
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:58:42 2016 +0700
+
+    Merge branch 'master' of https://github.com/hoanganh25991/laravel-cty-tnhh-vinh-phat
+
+[33mcommit 64f2d93cc78006a9074ef38b9c261f604943ffac[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:58:30 2016 +0700
+
+    change images link in hardcode second time
+
+[33mcommit b5c0070e6f8a993a9f2cbc4e3a09764f6aa32dfd[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:55:16 2016 +0700
+
+    change images link in hardcode
+
+[33mcommit 3a40d078db9cb936fdc4c0eeba2f7bb216adb308[m
+Merge: c017caf 751992b
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:52:29 2016 +0700
+
+    Merge branch 'master' of https://github.com/hoanganh25991/laravel-cty-tnhh-vinh-phat
+
+[33mcommit c017caf1963d2169b25e56bf13b18dcc349457f4[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:48:43 2016 +0700
+
+    change img directory to images
+
+[33mcommit 751992ba28b44e3bb8132faaa9a77b6e9686fa39[m
+Merge: 40d9428 ff34ec1
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 20:45:45 2016 +0700
+
+    Merge branch 'master' of https://github.com/hoanganh25991/laravel-cty-tnhh-vinh-phat
+
+[33mcommit 40d942843d48bbfd31045dfda98bf11ac664fdb8[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Fri Aug 12 20:45:34 2016 +0700
+
+    .htaccess to work with server
+
+[33mcommit ff34ec1358ca4e014be8412f24b12e0cde5e98fe[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 20:12:11 2016 +0700
+
+    style.css
+
+[33mcommit 9c9a72210423d7cb0816db3536a8b97644ba8596[m
+Author: Than Doan Dang Khoa <dangkhoa114@gmail.com>
+Date:   Fri Aug 12 15:05:42 2016 +0700
+
+    home-page first commit
+
+[33mcommit be485c80a43167ab41b2880d164d1b86be5d209a[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Thu Aug 11 22:38:53 2016 +0700
+
+    [index.php] for production
+
+[33mcommit aaa517bd17632d74b79b868fce08365007942055[m
+Author: Anh Le Hoang <lehoanganh25991@gmail.com>
+Date:   Thu Aug 11 22:32:21 2016 +0700
+
+    init
