@@ -23,4 +23,7 @@ class ProductController extends Controller
 		$product->save();
 		return back();
 	}
+	public function show(Product $product) {
+		return view('products.show',compact('product'));
+	}
 }

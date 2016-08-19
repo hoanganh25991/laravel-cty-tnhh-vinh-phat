@@ -11,9 +11,13 @@
 |
 */
 Route::get('/', function () {
-	$products = DB::table('products')->select('title','introduction')->orderBy('updated_at')->take(6)->get();
+	$products = DB::table('products')->select('id','title','introduction')->orderBy('updated_at')->take(12)->get();
     return view('index', compact('products'));
 });
+Route::get('/intro','PageController@intro');
+Route::get('/contact','PageController@contact');
+Route::get('/partners','PageController@partners');
+Route::get('/products/{product}','ProductController@show');
 Route::group(['prefix'=>'admin'], function(){
 	Route::get('/', function() {
 		return view('admin.index');

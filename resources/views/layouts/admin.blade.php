@@ -10,20 +10,20 @@
     <title>Admin</title>
 
     <!-- Bootstrap -->
-    <link href="{{ url('/public/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url('vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ url('/public/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ url('vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{ url('/public/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
+    <link href="{{ url('vendors/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- iCheck -->
-    <link href="{{ url('/public/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
+    <link href="{{ url('vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
     <!-- bootstrap-progressbar -->
-    <link href="{{ url('/public/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
+    <link href="{{ url('vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <!-- JQVMap -->
-    <link href="{{ url('/public/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
+    <link href="{{ url('vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
 
     <!-- Custom Theme Style -->
-    <link href="{{ url('/public/build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ url('build/css/custom.min.css') }}" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -207,45 +207,45 @@
     </div>
 
     <!-- jQuery -->
-    <script src="{{ url('/public/vendors/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url('vendors/jquery/dist/jquery.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="{{ url('/public/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url('vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <!-- FastClick -->
-    <script src="{{ url('/public/vendors/fastclick/lib/fastclick.js') }}"></script>
+    <script src="{{ url('vendors/fastclick/lib/fastclick.js') }}"></script>
     <!-- NProgress -->
-    <script src="{{ url('/public/vendors/nprogress/nprogress.js') }}"></script>
+    <script src="{{ url('vendors/nprogress/nprogress.js') }}"></script>
     <!-- Chart.js -->
-    <script src="{{ url('/public/vendors/Chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ url('vendors/Chart.js/dist/Chart.min.js') }}"></script>
     <!-- gauge.js -->
-    <script src="{{ url('/public/vendors/gauge.js/dist/gauge.min.js') }}"></script>
+    <script src="{{ url('vendors/gauge.js/dist/gauge.min.js') }}"></script>
     <!-- bootstrap-progressbar -->
-    <script src="{{ url('/public/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
+    <script src="{{ url('vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
     <!-- iCheck -->
-    <script src="{{ url('/public/vendors/iCheck/icheck.min.js') }}"></script>
+    <script src="{{ url('vendors/iCheck/icheck.min.js') }}"></script>
     <!-- Skycons -->
-    <script src="{{ url('/public/vendors/skycons/skycons.js') }}"></script>
+    <script src="{{ url('vendors/skycons/skycons.js') }}"></script>
     <!-- Flot -->
-    <script src="{{ url('/public/vendors/Flot/jquery.flot.js') }}"></script>
-    <script src="{{ url('/public/vendors/Flot/jquery.flot.pie.js') }}"></script>
-    <script src="{{ url('/public/vendors/Flot/jquery.flot.time.js') }}"></script>
-    <script src="{{ url('/public/vendors/Flot/jquery.flot.stack.js') }}"></script>
-    <script src="{{ url('/public/vendors/Flot/jquery.flot.resize.js') }}"></script>
+    <script src="{{ url('vendors/Flot/jquery.flot.js') }}"></script>
+    <script src="{{ url('vendors/Flot/jquery.flot.pie.js') }}"></script>
+    <script src="{{ url('vendors/Flot/jquery.flot.time.js') }}"></script>
+    <script src="{{ url('vendors/Flot/jquery.flot.stack.js') }}"></script>
+    <script src="{{ url('vendors/Flot/jquery.flot.resize.js') }}"></script>
     <!-- Flot plugins -->
-    <script src="{{ url('/public/vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
-    <script src="{{ url('/public/vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
-    <script src="{{ url('/public/vendors/flot.curvedlines/curvedLines.js') }}"></script>
+    <script src="{{ url('vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
+    <script src="{{ url('vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
+    <script src="{{ url('vendors/flot.curvedlines/curvedLines.js') }}"></script>
     <!-- DateJS -->
-    <script src="{{ url('/public/vendors/DateJS/build/date.js') }}"></script>
+    <script src="{{ url('vendors/DateJS/build/date.js') }}"></script>
     <!-- JQVMap -->
-    <script src="{{ url('/public/vendors/jqvmap/dist/jquery.vmap.js') }}"></script>
-    <script src="{{ url('/public/vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
-    <script src="{{ url('/public/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
+    <script src="{{ url('vendors/jqvmap/dist/jquery.vmap.js') }}"></script>
+    <script src="{{ url('vendors/jqvmap/dist/maps/jquery.vmap.world.js') }}"></script>
+    <script src="{{ url('vendors/jqvmap/examples/js/jquery.vmap.sampledata.js') }}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="{{ url('/public/js/moment/moment.min.js') }}"></script>
-    <script src="{{ url('/public/js/datepicker/daterangepicker.js') }}"></script>
+    <script src="{{ url('js/moment/moment.min.js') }}"></script>
+    <script src="{{ url('js/datepicker/daterangepicker.js') }}"></script>
 
     <!-- TinyMCE -->
-    <script src="{{ url('/public/vendors/tinymce/tinymce.min.js') }}"></script>
+    <script src="{{ url('vendors/tinymce/tinymce.min.js') }}"></script>
     <script>
     tinymce.init({
       selector: 'textarea',
@@ -257,7 +257,7 @@
         'insertdatetime media nonbreaking save table contextmenu directionality',
         'emoticons template paste textcolor colorpicker textpattern imagetools'
       ],
-      toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+      toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link',
       toolbar2: 'print preview media | forecolor backcolor emoticons',
       image_advtab: true,
       templates: [
@@ -266,12 +266,12 @@
       ],
       content_css: [
         '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
-        '/public/vendors/tinymce/css/codepen.min.css'
+        'public/vendors/tinymce/css/codepen.min.css'
       ]
     });
     </script>
 
     <!-- Custom Theme Scripts -->
-    <script src="{{ url('/public/build/js/custom.min.js') }}"></script>
+    <script src="{{ url('build/js/custom.min.js') }}"></script>
   </body>
 </html>
