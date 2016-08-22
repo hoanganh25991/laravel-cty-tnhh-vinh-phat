@@ -1,11 +1,20 @@
-$('.caption-title').hover(
-	function(){
-		$(this).addClass("animated infinite bounce");
-	},
-	function(){
-		$(this).removeClass("animated");
-	}
-);
+function aminate(el, x) {
+	$(el)
+		
+};
+
+var bounceAnimate = 'bounce animated';
+const animateEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+$('.caption-title').hover(function(){
+	$(this)
+		.removeClass(bounceAnimate)
+		.addClass(bounceAnimate)
+		.one(animateEnd,
+			function(){
+				$(this).removeClass(bounceAnimate);
+			});
+});
 
 // var preNavLi;
 //
