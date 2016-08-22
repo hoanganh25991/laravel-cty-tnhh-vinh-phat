@@ -32,7 +32,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="{{ url('/') }}" class="site_title"><i class="fa fa-paw"></i> <span>Vĩnh Phát</span></a>
+              <a href="{{ url('') }}" class="site_title"><i class="fa fa-paw"></i> <span>Vinh Phát</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -40,7 +40,7 @@
             <!-- menu profile quick info -->
             <div class="profile">
               <div class="profile_pic">
-                <img src="{{ url('/images/img.jpg') }}" alt="..." class="img-circle profile_img">
+                <img src="{{ url('images/img.jpg') }}" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -58,14 +58,14 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-product-hunt"></i> Sản phẩm <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="{{ url('/admin/products/create') }}">Thêm mới sản phẩm</a></li>
-                      <li><a href="{{ url('/admin/products') }}">Danh sách sản phẩm</a></li>
+                      <li><a href="{{ url('admin/products/create') }}">Thêm mới sản phẩm</a></li>
+                      <li><a href="{{ url('admin/products') }}">Danh sách sản phẩm</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-sliders"></i> Sliders <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="{{ url('/') }}">Thêm mới</a></li>
-                      <li><a href="{{ url('/') }}">Danh sách</a></li>
+                      <li><a href="{{ url('') }}">Thêm mới</a></li>
+                      <li><a href="{{ url('') }}">Danh sách</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -103,7 +103,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="{{ url('/images/img.jpg') }}" alt="">John Doe
+                    <img src="{{ url('images/img.jpg') }}" alt="">John Doe
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -127,7 +127,7 @@
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>
-                        <span class="image"><img src="{{ url('/images/img.jpg') }}" alt="Profile Image" /></span>
+                        <span class="image"><img src="{{ url('images/img.jpg') }}" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -139,7 +139,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="{{ url('/images/img.jpg') }}" alt="Profile Image" /></span>
+                        <span class="image"><img src="{{ url('images/img.jpg') }}" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -151,7 +151,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="{{ url('/images/img.jpg') }}" alt="Profile Image" /></span>
+                        <span class="image"><img src="{{ url('images/img.jpg') }}" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -163,7 +163,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="{{ url('/images/img.jpg') }}" alt="Profile Image" /></span>
+                        <span class="image"><img src="{{ url('images/img.jpg') }}" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -246,7 +246,9 @@
 
     <!-- TinyMCE -->
     <script src="{{ url('vendors/tinymce/tinymce.min.js') }}"></script>
+    <input type="hidden" name="rootUrl" value="{{ url('') }}">
     <script>
+    var rootUrl = $('input[name="rootUrl"]').val();
     tinymce.init({
       selector: 'textarea',
       height: 400,
@@ -266,7 +268,7 @@
       ],
       content_css: [
         '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
-        'vendors/tinymce/css/codepen.min.css'
+        rootUrl + '/vendors/tinymce/css/codepen.min.css'
       ]
     });
     </script>

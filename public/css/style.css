@@ -1,3 +1,9 @@
+/*common behavior*/
+/*remove underline from boostrap by class*/
+/*.nounderline :hover{text-decoration: none !important}*/
+/*a :hover {
+	text-decoration: none;
+}*/
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #8f8e83;
