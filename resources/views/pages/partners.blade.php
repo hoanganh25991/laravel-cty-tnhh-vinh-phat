@@ -1,7 +1,9 @@
-@extends('layouts.single');
-
+@extends('layouts.root2')
+@section('title')
+	<title>Đối tác</title>
+@stop
 @section('content')
-	<div class="panel panel-primary">
+	<div class="panel panel-success">
 		<div class="panel-heading">
 			<h3 class="panel-title">Đối tác</h3>
 		</div>

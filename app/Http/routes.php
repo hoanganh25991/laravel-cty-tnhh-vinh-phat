@@ -10,9 +10,12 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+View::composer(['partial.navbar', 'index'], function($view){
+	$products = \App\Product::all();
+	$view->with(compact('products'));
+});
 Route::get('', function () {
-	$products = DB::table('products')->select('id','title','introduction')->orderBy('updated_at')->take(12)->get();
-    return view('index', compact('products'));
+    return view('index');
 });
 Route::get('intro','PageController@intro');
 Route::get('contact','PageController@contact');
@@ -24,4 +27,5 @@ Route::group(['prefix'=>'admin'], function(){
 	});
 	Route::get('products/create', 'ProductController@create');
 	Route::post('products/store', 'ProductController@store');
+	Route::get('products/index', 'ProductController@index');
 });

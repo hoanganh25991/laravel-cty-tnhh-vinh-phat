@@ -59,7 +59,7 @@
                   <li><a><i class="fa fa-product-hunt"></i> Sản phẩm <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="{{ url('admin/products/create') }}">Thêm mới sản phẩm</a></li>
-                      <li><a href="{{ url('admin/products') }}">Danh sách sản phẩm</a></li>
+                      <li><a href="{{ url('admin/products/index') }}">Danh sách sản phẩm</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-sliders"></i> Sliders <span class="fa fa-chevron-down"></span></a>
