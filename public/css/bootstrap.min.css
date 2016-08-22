@@ -1435,7 +1435,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #75992E;
+    color: #95cf24;
     text-decoration: none;
 }
 
@@ -5764,7 +5764,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .breadcrumb {
-    padding: 8px 15px;
+    padding: 16px 30px;
+    /*padding: 8px 30px;*/
     /*margin-bottom: 20px;*/
     list-style: none;
     background-color: #f5f5f5;
