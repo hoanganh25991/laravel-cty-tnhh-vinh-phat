@@ -16,7 +16,7 @@
 @yield('slider')
 
 <div class="container" id="main-content">
-    <h4>breadcrumbs go here</h4>
+    {{--<h4>breadcrumbs go here</h4>--}}
     <div class="row">
         <div class="col-md-9" id="main-column">
             @yield('content')
@@ -27,7 +27,6 @@
             @include('partial.sale-consult')
         </div>
     </div>
-    <div class="clearfix"></div>
 </div>
 
 @yield('slider-footer')

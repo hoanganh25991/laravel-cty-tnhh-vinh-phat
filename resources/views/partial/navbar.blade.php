@@ -14,12 +14,17 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ url('') }}">Trang chủ</a></li>
+                <ul class="nav navbar-nav" id="navList">
+                    <li><a href="{{ url('') }}">Trang chủ</a></li>
                     <li><a href="{{ url('intro') }}">Giới thiệu</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Sản phẩm <span class="caret"></span></a>
+                    <li class="dropdown" id="productCat">
+                        <a href="#"
+                           class="dropdown-toggle"
+                           data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false"
+                        >
+                            Sản phẩm <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu">
                             @foreach($products as $product)
                                 <li>

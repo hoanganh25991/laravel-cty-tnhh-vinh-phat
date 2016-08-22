@@ -380,11 +380,14 @@ dt {
     }
     body {
         /*background: url(../images/bg2.jpg) no-repeat center center fixed;*/
-        background: url(../images/home-page-bg.png) no-repeat center center fixed;
+        /*background: url(../images/bg3.jpg) no-repeat center center fixed;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        /*background-color: #BACC96;*/
+        /*background-color: #8e8e8e;*/
+        background-color: #2F4F4F;
     }
 
 }
@@ -413,6 +416,9 @@ dt {
     }
 }
 
+#main-content {
+    border-radius: 10px;
+}
 /*main-content*/
 @media (min-width: 768px) {
     #main-content {
