@@ -10,8 +10,14 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+use App\Product;
 View::composer(['layouts.root2', 'index'], function ($view){
-    $products = \App\Product::all();
+//    $products = Product::all();
+//    $products = Product::all()->paginate(6);
+
+    //use default paginate in laravel
+    $products = DB::table('products')->paginate(9);
+
     $view->with(compact('products', 'breadcrumb'));
 });
 
@@ -58,7 +64,9 @@ Route::get('intro', 'PageController@intro');
 Route::get('contact', 'PageController@contact');
 Route::get('partners', 'PageController@partners');
 Route::get('products/{product}', 'ProductController@show');
-Route::get('products', 'ProductController@index');
+Route::get('products', function(){
+    return redirect('');
+});
 Route::group(['prefix' => 'admin'], function (){
     Route::get('/', function (){
         return view('admin.index');

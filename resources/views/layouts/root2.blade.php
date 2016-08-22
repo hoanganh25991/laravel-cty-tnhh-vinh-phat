@@ -23,6 +23,7 @@
 
         <div class="col-md-9" id="main-column">
             @yield('content')
+            {{ $products->links() }}
         </div>
 
         <div class="col-md-3" id="side-bar">
