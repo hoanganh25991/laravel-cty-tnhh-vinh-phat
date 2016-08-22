@@ -16,8 +16,11 @@
 @yield('slider')
 
 <div class="container" id="main-content">
-    {{--<h4>breadcrumbs go here</h4>--}}
     <div class="row">
+        <div class="row">
+            @include('partial.breadcrumb')
+        </div>
+
         <div class="col-md-9" id="main-column">
             @yield('content')
         </div>

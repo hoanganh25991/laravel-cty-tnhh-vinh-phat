@@ -107,7 +107,7 @@ a.navbar-brand {
     color: #75992e;
     text-align: center;
     font-weight: 400;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 .thumbnail .caption h4 {
@@ -376,9 +376,10 @@ dt {
         /*color: #75992e;*/
     }
 
-    .caption-title > a{
-        color:  #95cf24;
+    .caption-title > a {
+        color: #95cf24;
     }
+
     body {
         /*background: url(../images/bg2.jpg) no-repeat center center fixed;*/
         /*background: url(../images/bg3.jpg) no-repeat center center fixed;*/
@@ -420,6 +421,7 @@ dt {
 #main-content {
     border-radius: 10px;
 }
+
 /*main-content*/
 @media (min-width: 768px) {
     #main-content {
@@ -462,3 +464,7 @@ dt {
     }
 }
 
+/*breadcrumb*/
+#ti-breadcrumb > ol {
+    background-color: #75992e;
+}
