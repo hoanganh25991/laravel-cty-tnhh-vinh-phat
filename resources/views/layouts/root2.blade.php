@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link rel="stylesheet" href="{{ url('css/fonts/flat-icon/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ url('css/vietnamese-roboto-font.css') }}">
     <link rel="stylesheet" href="{{ url('css/animate.min.css') }}">
 </head>
 <body>
