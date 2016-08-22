@@ -64,7 +64,7 @@
 </nav>
 {{--<h1>slider go here</h1>--}}
 @yield('slider')
-<div class="container-sm" id="main-content" style="margin-top: 50px; padding: 0 100px 0 100px">
+<div class="container" id="main-content" style="margin-top: 50px;">
     <h1>breadcrumbs go here</h1>
     <div class="row">
         <div class="col-md-9" id="main-column">
