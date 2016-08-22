@@ -16,7 +16,7 @@
                 <div class="col-sm-6 col-md-4">
                     <a href="{{ url('products/'.$product->id) }}">
                         <div class="thumbnail">
-                            <img src="{{ url('images/p2.jpg') }}" alt="">
+                            <img src="{{ url('images/product-1.jpg') }}" alt="">
                             <div class="caption">
                                 <h5>{{ $product->title }}</h5>
                                 {{--<p>{{ $products[$i]->introduction }}</p>--}}

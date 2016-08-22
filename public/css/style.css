@@ -152,7 +152,8 @@ dt {
 }
 
 .thumbnail .caption {
-    background-color: #caf9d8;
+    /*background-color: #caf9d8;*/
+    background-color: #DFF0D8;
 }
 
 .thumbnail .caption:hover {
